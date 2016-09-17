@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="vertical"
+                tools:context="com.topv1.cyz.colorbook.MainActivity">
+
+    <TextView
+        android:id="@+id/tvloading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorLoadingGrayBackground"
+        android:gravity="center"
+        android:text="@string/text_loading"
+        android:textColor="@color/colorWhite"
+        android:visibility="invisible"
+        />
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+
+                android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorLoadingGrayBackground"
+            android:gravity="center"
+            android:text="@string/text_loading"
+            android:textColor="@color/colorWhite"
+
+            />
+
+    </ScrollView>
+
+    <GridView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</RelativeLayout>

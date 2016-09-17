@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">涂色本</string>
+    <string name="text_loading">加载中&#8230;</string>
+    <string name="title_activity_login">登陆</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">用户名</string>
+    <string name="prompt_password">Password/密码</string>
+    <string name="action_sign_in">登 陆 / 注 册</string>
+    <string name="action_sign_in_short">登 陆</string>
+    <string name="error_invalid_email">用户名太长或太短！</string>
+    <string name="error_invalid_password">密码太短！</string>
+    <string name="error_incorrect_password">密码不正确！</string>
+    <string name="error_field_required">必须输入，不能为空！</string>
+    <string name="permission_rationale">"Email/电话号码自动完成需要Contacts权限！"
+    </string>
+</resources>
